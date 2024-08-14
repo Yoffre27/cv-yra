@@ -1,6 +1,6 @@
 import { Link } from '@chakra-ui/react'
 
-export type Company = 'Deloitte' | 'SCG' | 'Blotocol'
+export type Company = 'atom' | 'chavinInformatica' | 'chavinAtm'
 
 export type CompanyDetail = {
   name: string
@@ -19,145 +19,75 @@ export type CompanyDetail = {
 export const Experiences: {
   [key in Company]: CompanyDetail
 } = {
-  Deloitte: {
-    name: 'Deloitte',
-    longName: 'Deloitte Consulthing Phils. Delivery Center',
-    subDetail: 'Consulthing Phils. Delivery Center',
-    url: 'https://www2.deloitte.com/',
-    position: 'Software Engineer Consultant',
-    duration: 'Sep 2021 - Present',
+  atom: {
+    name: 'AtomTec',
+    longName: 'AtomTec',
+    subDetail: 'Network administrator and backend and frontend programmer',
+    url: 'https://www.atomtec.net/',
+    position: 'Systems Engineer',
+    duration: 'June 2024 - Present',
     logo: {
-      light: '/worked_at_logos/deloitte/Deloitte_logo_black.png',
-      dark: '/worked_at_logos/deloitte/Deloitte_logo.png',
+      light: '/worked_at_logos/work-atomtec/logoCirulo.png',
+      dark: '/worked_at_logos/work-atomtec/logotipo.png',
     },
     roles: [
       <>
-       Contributed to the design and development of a comprehensive .NET payment integration project for a client
-       That covered credit card payments and subscription management.
-       Introduced Stripe as a new payment provider within the system architecture.
-       Participated in triaging, fixing and adding new functionalitiesto multiple Azure powered APIs of the same client.
+        Contributed to the design and development of an e-commerce platform using Next.js for AtonTec, focused on offering a fluid and fast user experience. The project included the implementation of credit card payments and advanced subscription management, optimizing the purchasing process and improving customer retention. Additionally, he worked in the same company as a WISP administrator, managing the network infrastructure to ensure a reliable and efficient service.
       </>,
       <>
-        Worked as a Sitecore Backend on new{' '}
+        I work as Nextjs and Mysql for the development ecommerce of{' '}
         <Link
-          aria-label="Deloitte Digital AU"
-          href="https://www.deloittedigital.com.au/"
+          aria-label="AtomTec"
+          href="https://www.atomtec.net/"
           target="_blank"
           rel="noreferrer"
         >
-          Deloitte Digital AU Site.
+          AtomTec {''}
         </Link>
+        and I use winbox to manage the WISP
       </>,
+
+    ],
+  },
+  chavinInformatica: {
+    name: 'MDCH',
+    longName: 'district municipality of chavin de huantar',
+    subDetail: 'IT Intern',
+    url: 'https://munichavindehuantar.gob.pe/',
+    position: 'IT Intern',
+    duration: 'September 2023 – December 2023',
+    logo: {
+      light: '/worked_at_logos/workChavinInformatica/chavin.png',
+      dark: '/worked_at_logos/workChavinInformatica/chavin.png',
+    },
+    roles: [
       <>
-        Udergone training for .NET Sitecore 10,
-        Sitecore SXA and different topologies it provides.{' '} and Passed {' '}
-        <Link
-          aria-label="Sitecore 10 .NET Developer Certification"
-          href="/certification/Lawingco-Sitecore 10 NET Developer Cert.pdf"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Sitecore 10 .NET Developer Certification.
-        </Link>
+       During my experience in the IT area, I was in charge of manage communication networks and information technology systems information, ensuring efficient operation and resolving technical problems.
       </>,
     ],
   },
-  SCG: {
-    name: 'Scentregroup',
-    longName: 'Scentregroup Limited AU',
-    subDetail: 'via Prosource BPO',
-    url: 'https://www.scentregroup.com/',
-    position: 'Software Engineer',
-    duration: 'Feb 2020 - Sep 2021',
+
+  chavinAtm: {
+    name: 'MDCH',
+    longName: 'district municipality of chavin de huantar',
+    subDetail: 'Technical assistant',
+    url: 'https://munichavindehuantar.gob.pe/',
+    position: 'Municipal Technical Assistant for the Management of Services Water and Sanitation - ATM',
+    duration: 'September 2021 - October 2022',
     logo: {
-      light: '/worked_at_logos/scg/SCG_400x400.jpg',
-      dark: '/worked_at_logos/scg/SCG.png',
+      light: '/worked_at_logos/workChavinATM/chavin.png',
+      dark: '/worked_at_logos/workChavinATM/chavin.png',
     },
     roles: [
       <>
-        Revamping the legacy Partner Portal into a new{' '}
-        <Link
-          aria-label="Westfield Marketing Hub"
-          href="https://partner.scentregroup.com/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Westfield Marketing Hub
-        </Link>{' '}
-        using NextJS and Typescript. Restructuring the old express app into a
-        newer architectural design approach.
-      </>,
-      <>
-        Created multiple Contentful and Bynder extensions to improve BX process
-        better.
-      </>,
-      <>
-        Worked on maintaining{' '}
-        <Link
-          variant="primaryLink"
-          href="https://www.westfield.com.au/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Westfield
-        </Link>{' '}
-        main site and Graphql apis written in NodeJS.
-      </>,
-      <>
-        Migrating of existing marketing email related tools and batch jobs from
-        Responsys into new platform called Braze.
-      </>,
-      <>
-        Hired at early 2020, first major task was helping with selecting a new
-        marketing vendor that can scale and also enable us to have
-        personalisation as well, selecting{' '}
-        <Link
-          aria-label="Braze"
-          href="https://www.braze.com/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Braze
-        </Link>{' '}
-        as a result.
-      </>,
-    ],
-  },
-  Blotocol: {
-    name: 'Blotocol',
-    longName: 'Blotocol Philippines',
-    subDetail: 'formerly IVP Global Inc.',
-    url: 'https://blotocol.com/',
-    position: 'Senior Software Engineer',
-    duration: 'Nov 2016 - Feb 2020',
-    logo: {
-      light: '/worked_at_logos/ivp/blotocol_logo-dark.png',
-      dark: '/worked_at_logos/ivp/blotocol-logo-white.png',
-    },
-    roles: [
-      <>
-        Developed a Twitter Raffle Campaign / Contest Bot called Camps with
-        statistics similar to Facebook Ads.
-      </>,
-      <>
-        In 2019 got promoted as Senior Software Engineer and worked with Cryto
-        Exchange, Smart Contracts and other APIs using several techs such as
-        NodeJS, .NET Core and React.
-      </>,
-      <>
-        Create highly scalable Japanese e-commerce sites. Most notable clients
-        were TV Tokyo, Layla EC using .NET.
-      </>,
-      <>
-        Hired at 2016, Undergone Japanese language training first. Shortly
-        after, worked with in-house .NET MVC Framework called ERS.
+       During my performance as Municipal Technical Assistant for the Management of Water and Sanitation Services, my work focused in the coordination of activities related to the water and sanitation infrastructure. I managed properly water and sanitation systems, collaborating closely with technical equipment to guarantee a safe and sustainable supply.
       </>,
     ],
   },
 }
 
 export const ExperiencesList = [
-  Experiences.Deloitte,
-  Experiences.SCG,
-  Experiences.Blotocol,
+  Experiences.atom,
+  Experiences.chavinInformatica,
+  Experiences.chavinAtm,
 ]

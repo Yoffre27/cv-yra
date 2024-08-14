@@ -40,9 +40,8 @@ const Sidebar = () => {
     >
       <motion.div
         id="sidebarCircle"
-        className={`${styles.sidebar} ${
-          colorMode === 'light' ? styles.dark : ''
-        }`}
+        className={`${styles.sidebar} ${colorMode === 'light' ? styles.dark : ''
+          }`}
         variants={scaleUp}
         style={{ display: display }}
         animate={colorMode === 'dark' ? 'animate' : 'lightMode'}
@@ -61,7 +60,7 @@ const Sidebar = () => {
             variant="accent"
             fontWeight="light"
           >
-            Ohh you found me?. Howdy! I am
+            Ooh you found me?. Howdy! I am
           </MotionText>
           <MotionHeading
             as="h1"
@@ -70,7 +69,7 @@ const Sidebar = () => {
             textTransform="uppercase"
             variants={fadeInUp}
           >
-            Marc Jhon
+            Yoffre Roel
           </MotionHeading>
           <MotionHeading
             as="h2"
@@ -82,7 +81,7 @@ const Sidebar = () => {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
-            Lawingco.
+            Ramirez Amado
           </MotionHeading>
           <MotionText
             colorScheme="gray"
@@ -90,7 +89,7 @@ const Sidebar = () => {
             className={styles.marginTopForce}
             variants={fadeInUp}
           >
-            Or you could call me KL. That works too . . .
+            You could call
           </MotionText>
 
           <MotionHeading
@@ -100,7 +99,7 @@ const Sidebar = () => {
             className={styles.marginTopSmall}
             variants={fadeInUp}
           >
-            Software Engineer
+            Systems Engineer
           </MotionHeading>
 
           <MotionText
@@ -115,8 +114,7 @@ const Sidebar = () => {
               {' '}
               Thank you!
             </Text>
-            <br />I am software engineer that specializes at backend apis, front
-            end integration, recently found myself studying UX too.
+            <br />I am a Systems Engineer specialized in backend APIs, front end integration, I am also dedicated to network and server administration.
           </MotionText>
           <MotionButton
             size="lg"
@@ -133,7 +131,7 @@ const Sidebar = () => {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
-            Get in touch!
+            contact me!
           </MotionButton>
 
           <MotionBox d="flex" variants={simpleOpacity}>

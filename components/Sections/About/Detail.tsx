@@ -46,36 +46,13 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
         letterSpacing={1.8}
         style={{
           fontVariantCaps: 'small-caps',
+          marginTop: '50px'
         }}
       >
         What i do.
       </Heading>
       <Text variant="description">
-        I`ve been coding professionally for {professionalYears} years now and
-        currently working as a <b>Software Engineer</b> that focuses on{' '}
-        <b>architecture</b>, <b>APIs</b>,{' '}
-        <Tooltip
-          label="Ha!. Or more accurately TECH DEBT"
-          aria-label="Tech Debt?"
-          hasArrow
-        >
-          <Text as="span" variant="emphasis">
-            <b>nitty-gritty business logics</b>
-          </Text>
-        </Tooltip>{' '}
-        and even <b>front end integration</b> stuff now, how time flies!
-        <br /> <br />
-        Here are few technologies that are cup of my{' '}
-        <Tooltip
-          label="I only drink tea if I needed too!"
-          aria-label="I hate Tea!"
-          hasArrow
-        >
-          <Text as="span" variant="emphasis" textDecorationLine="line-through">
-            tea
-          </Text>
-        </Tooltip>{' '}
-        coffee <Icon as={GiCoffeePot} color={emphasis} />.
+        As a systems engineer, my goal is the development and improvement of digital systems. My focus has been on creating and optimization of solutions with business models that encompass from SaaS products to e-commerce platforms, digital media and communication. My commitment to innovation and efficiency has been the basis of my passion in this field, and I am excited to continue contributing my experience to promote cutting-edge technological solutions in the next stage of my career.
       </Text>
 
       <SimpleGrid columns={2} spacing={4}>

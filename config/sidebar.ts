@@ -18,37 +18,37 @@ type SocialMedia = {
 export const SocialMedias: SocialMedia[] = [
   {
     label: 'Twitter',
-    href: 'https://twitter.com/keysl1831',
+    href: 'https://x.com/YoffreRamirez',
     icon: FaTwitter,
   },
   {
     label: 'Instagram',
-    href: 'https://www.instagram.com/kllawingco/',
+    href: 'https://www.instagram.com',
     icon: FaInstagram,
   },
   {
     label: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/marclawingco/',
+    href: 'https://www.linkedin.com/in/yoffre-roel-ramirez-amado-74b078318/',
     icon: FaLinkedin,
   },
   {
     label: 'StackOverflow',
-    href: 'https://stackoverflow.com/users/3867490/keysl',
+    href: 'https://stackoverflow.com/users/26709095/yoffre-ramirez-amado',
     icon: FaStackOverflow,
   },
   {
     label: 'Youtube',
-    href: 'https://www.youtube.com/channel/UCV-MiUVsKJrKJKKfUK58nhg',
+    href: 'https://www.youtube.com/@yoffreramirezamado7213',
     icon: FaYoutube,
   },
   {
     label: 'Github',
-    href: 'https://github.com/klawingco',
+    href: 'https://github.com/Yoffre27',
     icon: FaGithub,
   },
   {
     label: 'Dev.to',
-    href: 'https://dev.to/klawingco',
+    href: 'https://dev.to/yoffre_ramirezamado',
     icon: FaDev,
   },
 ]
